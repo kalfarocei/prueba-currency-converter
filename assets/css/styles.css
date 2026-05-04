@@ -1,0 +1,93 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* BODY */
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(35, 35, 53);
+  color: white;
+  text-align: center;
+}
+
+/* TÍTULO */
+.titulo {
+  margin-top: 40px;
+}
+
+/* TARJETA */
+.card {
+  background-color: rgb(131, 144, 155);
+  width: 400px;
+  margin: 40px auto;
+  padding: 36px;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+/* SUBTÍTULO */
+.subtitulo {
+  margin-bottom: 24px;
+}
+
+/* LABEL */
+.label {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+/* INPUT + SELECT */
+.campo {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+/* BOTÓN */
+.boton {
+  width: 100%;
+  padding: 12px;
+  background-color: rgb(29, 103, 163);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: rgb(37, 171, 186);
+}
+
+/* RESULTADO */
+.resultado {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* OCULTO */
+.oculto {
+  display: none;
+}
+
+/* GRÁFICO */
+.grafica {
+  margin-top: 20px;
+  width: 100%;
+}
+
+canvas {
+  background-color: white;
+  border-radius: 10px;
+}
